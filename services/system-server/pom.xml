@@ -3,28 +3,19 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>xlf</artifactId>
+        <artifactId>services</artifactId>
         <groupId>cn.com.xsw</groupId>
         <version>1.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>services</artifactId>
+    <artifactId>system</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>system-server</module>
+        <module>system-services-interface</module>
+        <module>system-services-impl</module>
+        <module>system-services-domain</module>
+        <module>system-services-dao</module>
     </modules>
-
-    <dependencies>
-        <dependency>
-            <groupId>cn.com.xsw</groupId>
-            <artifactId>util</artifactId>
-        </dependency>
-          <dependency>
-            <groupId>cn.com.xsw</groupId>
-            <artifactId>exception</artifactId>
-        </dependency>
-
-    </dependencies>
 
 </project>
