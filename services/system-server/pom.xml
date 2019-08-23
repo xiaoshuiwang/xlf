@@ -10,6 +10,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>system-server</artifactId>
+    <version>1.0</version>
+
     <packaging>pom</packaging>
     <modules>
         <module>system-services-interface</module>
@@ -17,12 +19,17 @@
         <module>system-services-domain</module>
         <module>system-services-dao</module>
     </modules>
+
     <dependencies>
         <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-web</artifactId>
-            <version>5.1.9.RELEASE</version>
-            <scope>compile</scope>
+            <groupId>cn.com.xsw</groupId>
+            <artifactId>util</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.com.xsw</groupId>
+            <artifactId>exception</artifactId>
+            <version>1.0</version>
         </dependency>
     </dependencies>
 

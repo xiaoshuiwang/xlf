@@ -10,21 +10,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>services</artifactId>
+    <version>1.0</version>
     <packaging>pom</packaging>
     <modules>
         <module>system-server</module>
     </modules>
 
-    <dependencies>
-        <dependency>
-            <groupId>cn.com.xsw</groupId>
-            <artifactId>util</artifactId>
-        </dependency>
-          <dependency>
-            <groupId>cn.com.xsw</groupId>
-            <artifactId>exception</artifactId>
-        </dependency>
-
-    </dependencies>
 
 </project>
