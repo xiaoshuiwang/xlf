@@ -1,6 +1,9 @@
 package cn.com.xlf.services.system.domain;
 
-public class User {
+/**
+ * 系统用户 实体类
+ */
+public class SysUser {
 
     private String name;
     private String loginName;
