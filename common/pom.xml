@@ -14,6 +14,7 @@
     <modules>
         <module>util</module>
         <module>config</module>
+        <module>middleware</module>
     </modules>
 
 
